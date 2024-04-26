@@ -81,21 +81,24 @@ Utilizing preloaded NSE scripts to gather additional information about the targe
 * The ssh-auth-methods script reveals support for public key and password authentication methods.
 * The ssh-hostkey script displays the host key in different encryption methods.
 * The unusual ports script confirms no unusual port usage.
+  
+***SSH Authentication Methods script***
 
 ![alt text][task5_sshauth]
 
 [task5_sshauth]: https://github.com/averyth3archivist/nmap-network-reconnaissance/blob/6a2031e63e3aa9ad4ceea040976cf8f7bbcee7eb/nmap_task5_sshauth.png "SSH Authentication Methods script"
-***SSH Authentication Methods script***
+
+***SSH Hostkey script***
 
 ![alt text][task5_sshkey]
 
-[task5_sshkey]: https://github.com/averyth3archivist/nmap-network-reconnaissance/blob/6a2031e63e3aa9ad4ceea040976cf8f7bbcee7eb/nmap_[task5_sshkey.png "SSH Hostkey script"
-***SSH Hostkey script***
+[task5_sshkey]: https://github.com/averyth3archivist/nmap-network-reconnaissance/blob/aac1ff463b070c38b22a6a59503e6d5df9ba5ed0/nmap_task5_sshkey.png "SSH Hostkey script"
+
+***Scan for unusual ports***
 
 ![alt text][task5_ports]
 
 [task5_ports]: https://github.com/averyth3archivist/nmap-network-reconnaissance/blob/6a2031e63e3aa9ad4ceea040976cf8f7bbcee7eb/nmap_task5_ports.png "Unusual Ports Scan"
-***Scan for unusual ports***
 
 By examining the SSH authentication methods and host key encryption, potential security risks related to SSH access can be identified and addressed. The confirmation of no unusual port usage provides reassurance regarding the network's standard configuration.
   
